@@ -7,6 +7,10 @@
     "dev": "node dist/index",
     "build": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishan-18/get-file-size.git"
+  },
   "author": "Ishan Gawali",
   "license": "ISC",
   "devDependencies": {
