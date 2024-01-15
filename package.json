@@ -11,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/ishan-18/get-file-size.git"
   },
+  "keywords": ["node", "express", "file", "size", "get-file-fize", "filesize", "file-size", "kb", "mb", "Kib"],
   "author": "Ishan Gawali",
   "license": "ISC",
   "devDependencies": {
