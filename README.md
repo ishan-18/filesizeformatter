@@ -1,23 +1,23 @@
-# get-file-size
+# filesizefomatter
 
-[![npm version](https://badge.fury.io/js/get-file-size.svg)](https://www.npmjs.com/package/get-file-size)
+[![npm version](https://badge.fury.io/js/filesizefomatter.svg)](https://www.npmjs.com/package/filesizefomatter)
 
 ## Description
 
-`get-file-size` is a lightweight and simple-to-use Node.js package to format file sizes. It provides a function to convert file sizes from bytes to human-readable units like kilobytes, megabytes, gigabytes, etc.
+`filesizefomatter` is a lightweight and simple-to-use Node.js package to format file sizes. It provides a function to convert file sizes from bytes to human-readable units like kilobytes, megabytes, gigabytes, etc.
 
 ## Installation
 
 ```bash
-npm install get-file-size
+npm install filesizefomatter
 ```
 
 ## Usage
 ```javascript
-const { formatFileSize } = require('get-file-size');
+const { filesizefomatter } = require('filesizefomatter');
 
 const exampleSize: number = 2048;
-formatFileSize(exampleSize, false).then(result => {
+filesizefomatter(exampleSize, false).then(result => {
   console.log(result);
 });
 ```
@@ -28,18 +28,18 @@ formatFileSize(exampleSize, false).then(result => {
 
 ## Example
 ```javascript
-const { formatFileSize } = require('get-file-size');
+const { filesizefomatter } = require('filesizefomatter');
 
 const fileSize = 1024;
 const exampleSize: number = 2048;
-formatFileSize(exampleSize, false).then(result => {
+filesizefomatter(exampleSize, false).then(result => {
   console.log(result);
 });
 // Output: "2.00 KB"
 ```
 
 ## Contributing
-Contributions to `get-file-size` are welcome! If you'd like to contribute to this project, please follow these steps:
+Contributions to `filesizefomatter` are welcome! If you'd like to contribute to this project, please follow these steps:
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature-name.`
 3. Commit your changes: `git commit -m "Add your feature or fix".`

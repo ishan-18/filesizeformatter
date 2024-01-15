@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.formatFileSize = void 0;
-function formatFileSize(size, useBinaryUnits = false) {
+exports.fileSizeFormat = void 0;
+function fileSizeFormat(size, useBinaryUnits = false) {
     const units = useBinaryUnits
         ? ['Bytes', 'KiB', 'MiB', 'GiB', 'TiB', 'PiB', 'EiB', 'ZiB', 'YiB']
         : ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
@@ -17,5 +17,5 @@ function formatFileSize(size, useBinaryUnits = false) {
     }
     ;
 }
-exports.formatFileSize = formatFileSize;
+exports.fileSizeFormat = fileSizeFormat;
 ;
