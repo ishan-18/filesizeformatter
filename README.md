@@ -1,23 +1,23 @@
-# filesizefomatter
+# filesizeformatter
 
-[![npm version](https://badge.fury.io/js/filesizefomatter.svg)](https://www.npmjs.com/package/filesizefomatter)
+[![npm version](https://badge.fury.io/js/filesizeformatter.svg)](https://www.npmjs.com/package/filesizeformatter)
 
 ## Description
 
-`filesizefomatter` is a lightweight and simple-to-use Node.js package to format file sizes. It provides a function to convert file sizes from bytes to human-readable units like kilobytes, megabytes, gigabytes, etc.
+`filesizeformatter` is a lightweight and simple-to-use Node.js package to format file sizes. It provides a function to convert file sizes from bytes to human-readable units like kilobytes, megabytes, gigabytes, etc.
 
 ## Installation
 
 ```bash
-npm install filesizefomatter
+npm install filesizeformatter
 ```
 
 ## Usage
 ```javascript
-const { filesizefomatter } = require('filesizefomatter');
+const { fileSizeFormat } = require('filesizeformatter');
 
 const exampleSize: number = 2048;
-filesizefomatter(exampleSize, false).then(result => {
+fileSizeFormat(exampleSize, false).then(result => {
   console.log(result);
 });
 ```
@@ -28,18 +28,18 @@ filesizefomatter(exampleSize, false).then(result => {
 
 ## Example
 ```javascript
-const { filesizefomatter } = require('filesizefomatter');
+const { fileSizeFormat } = require('filesizeformatter');
 
 const fileSize = 1024;
 const exampleSize: number = 2048;
-filesizefomatter(exampleSize, false).then(result => {
+fileSizeFormat(exampleSize, false).then(result => {
   console.log(result);
 });
 // Output: "2.00 KB"
 ```
 
 ## Contributing
-Contributions to `filesizefomatter` are welcome! If you'd like to contribute to this project, please follow these steps:
+Contributions to `filesizeformatter` are welcome! If you'd like to contribute to this project, please follow these steps:
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature-name.`
 3. Commit your changes: `git commit -m "Add your feature or fix".`

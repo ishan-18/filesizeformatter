@@ -1,6 +1,6 @@
 {
-  "name": "filesizefomatter",
-  "version": "1.0.0",
+  "name": "filesizeformatter",
+  "version": "1.0.1",
   "description": "A versatile and lightweight utility to format file sizes, providing both human-readable and customizable representations. This library supports various size units, including bits, bytes, kilobytes (KB), kibibytes (KiB), megabytes (MB), mebibytes (MiB), and beyond. Users can choose between binary and decimal units for flexibility. ",
   "main": "dist/index",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ishan-18/filesizefomatter.git"
+    "url": "https://github.com/ishan-18/filesizeformatter"
   },
   "keywords": ["node", "express", "file", "size", "get-file-fize", "filesize", "file-size", "kb", "mb", "Kib"],
   "author": "Ishan Gawali",
